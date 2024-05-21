@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Submit Your Information</h2>
+        <form action="/submit" method="post">
+            <label for="inputField">Enter your name:</label>
+            <input type="text" id="inputField" name="name" placeholder="Your name" required>
+            <label for="inputField">Enter your age:</label>
+            <input type="text" id="inputField" name="age" placeholder="Your age" required>
+            <label for="inputField">Enter your email:</label>
+            <input type="text" id="inputField" name="email" placeholder="Your email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
